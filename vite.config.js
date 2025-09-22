@@ -4,11 +4,10 @@ import path from 'node:path';
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
 import handlebars from 'vite-plugin-handlebars';
-
 import handlerBarsContext from './variables.js';
 
 export default defineConfig({
-  base: "/ProyectoFinal/",
+  base: "/Huellas-de-amor/",   // <-- cambio aquí
   appType: 'mpa',
   build: {
     rollupOptions: {
