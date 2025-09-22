@@ -1,0 +1,1 @@
+import"./FAQ-4df77f6e.js";import"./main-74d557f6.js";document.addEventListener("DOMContentLoaded",i=>{const t=document.querySelectorAll(".carousel-item");let e=0;const n=t.length,o=7e3;function l(){e=(e+1)%n,r()}function r(){const s=document.querySelector(".carousel-slide"),c=-e*100;s.style.transform=`translateX(${c}%)`}setInterval(l,o)});
